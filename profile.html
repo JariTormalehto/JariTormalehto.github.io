@@ -1,0 +1,61 @@
+<!-- profile.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>User Profile</title>
+</head>
+<body>
+
+    <header>
+        <div class="logout-button" onclick="logout()">Logout</div>
+      </header>
+
+  <div class="profile-container">
+    <section class="basic-info">
+      <!-- Display basic user information -->
+      <h2>Basic Information</h2>
+      <div id="basicInfo">
+        <!-- Content dynamically filled with GraphQL query results using JavaScript -->
+      </div>
+    </section>
+
+    <section class="xp-amount">
+      <!-- Display XP amount information -->
+      <h2>XP Amount</h2>
+      <div id="xpAmount">
+        <!-- Content dynamically filled with GraphQL query results using JavaScript -->
+      </div>
+    </section>
+
+    <section class="grades">
+      <!-- Display grades information -->
+      <h2>Grades</h2>
+      <div id="grades">
+        <!-- Content dynamically filled with GraphQL query results using JavaScript -->
+      </div>
+    </section>
+
+    <section class="audits">
+      <!-- Display audits information -->
+      <h2>Audits</h2>
+      <div id="audits">
+        <!-- Content dynamically filled with GraphQL query results using JavaScript -->
+      </div>
+    </section>
+
+    <section class="skills">
+      <!-- Display skills information -->
+      <h2>Skills</h2>
+      <div id="skills">
+        <!-- Content dynamically filled with GraphQL query results using JavaScript -->
+      </div>
+    </section>
+  </div>
+
+  <script src="profile.js"></script>
+</body>
+</html>
