@@ -1,6 +1,6 @@
 // script.js
 
-const API_URL = "https://((DOMAIN))/api/auth/signin"; // Replace with your actual server URL
+const API_URL = "https://https://jaritormalehto.github.io/api/auth/signin"; // Replace with your actual server URL
 
 async function login() {
   const username = document.getElementById("username").value;
