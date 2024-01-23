@@ -188,12 +188,3 @@ const formatNumberWithThreeDecimals = (number) => {
 }
   
 window.onload = loadUserProfile
-
-document.getElementById('navbar').addEventListener('click', function(e) {
-    if (e.target.tagName === 'A') {
-        e.preventDefault();
-        document.querySelector('.auditData').style.display = 'none';
-        document.querySelector('.xpDataAndLogout').style.display = 'none';
-        document.querySelector('.' + e.target.dataset.target).style.display = 'block';
-    }
-});
