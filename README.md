@@ -4,37 +4,14 @@ The instructions for this task were to create a website that would display the u
 
 # Deployed website
 
-https://koodgraphql.netlify.app/
+https://jaritormalehto.github.io
 
 # Usage locally
 
-To run the program at the default 8080 port, use `go run .`
-
-If you wish to use a different port, you can add a valid port number as an argument.
-
-Ex. `go run . 5000`
+To run the program at the default 8000 port, use `go run .`
 
 # Instructions
 
 To use the website, log in with your 01 Intra credentials. The credentials will not be stored.
 
 After logging in, you will be directed to a page with your user information and 2 graphs based on your statistics.
-
-# Testing
-
-[Here](https://github.com/01-edu/public/tree/master/subjects/graphql/audit) are the audit questions to test the program.
-
-If there are any issues, feel free to contact me on discord.
-
-# Implementation
-
-- Backend: Golang
-
-- Frontend: Javascript
-
-- Deployment: Netlify
-
-# Author
-
-[Art Johan Aaspõllu](https://01.kood.tech/git/aaaspoll)
-

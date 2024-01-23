@@ -54,5 +54,5 @@ func getPortNr() int {
 			return n
 		}
 	}
-	return 8080
+	return 8000
 }
